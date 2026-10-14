@@ -1,0 +1,292 @@
+{
+ "fetched": "2026-10-14T22:00:00Z",
+ "note": "pushed_at/stars from GitHub REST API; czietz/fm1-firmware-patcher and smememe/fm1-macropad-patch not yet fetched (rate limit)",
+ "repos": {
+  "m-vave/fm1_open": {
+   "error": 404
+  },
+  "hugelton/Felucca": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 479,
+   "archived": false
+  },
+  "ChanceTheMaker/Felucca": {
+   "pushed_at": "2026-10-12",
+   "stargazers_count": 5,
+   "archived": false
+  },
+  "keremimo/melodee": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 74,
+   "archived": false
+  },
+  "Quixotic7/ChoralRootFM1": {
+   "pushed_at": "2026-10-13",
+   "stargazers_count": 50,
+   "archived": false
+  },
+  "charlesvestal/fm1-x0x": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 158,
+   "archived": false
+  },
+  "jasonpersinger/ghoulbox-fm1-dungeon-synth": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 43,
+   "archived": false
+  },
+  "zednaked/jangada": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 26,
+   "archived": false
+  },
+  "DeadActive/hortator": {
+   "pushed_at": "2026-10-12",
+   "stargazers_count": 15,
+   "archived": false
+  },
+  "beashoko/april-os": {
+   "pushed_at": "2026-10-10",
+   "stargazers_count": 7,
+   "archived": false
+  },
+  "ELI7VH/Felucca": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 6,
+   "archived": false
+  },
+  "joshbartlettband-web/felucca-rainbow": {
+   "pushed_at": "2026-10-11",
+   "stargazers_count": 13,
+   "archived": false
+  },
+  "math0ne/fm1-chord": {
+   "pushed_at": "2026-10-13",
+   "stargazers_count": 8,
+   "archived": false
+  },
+  "oscillr/DUELL": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 7,
+   "archived": false
+  },
+  "okumurari2/maku": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 20,
+   "archived": false
+  },
+  "charlesvestal/fm1-polly": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 10,
+   "archived": false
+  },
+  "apiel/fm1-tribe": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 6,
+   "archived": false
+  },
+  "Gadlele/Golana": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 0,
+   "archived": false
+  },
+  "Gadlele/Pelucco": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 0,
+   "archived": false
+  },
+  "illuminus5/skiff": {
+   "pushed_at": "2026-10-13",
+   "stargazers_count": 3,
+   "archived": false
+  },
+  "echoe/Felucca_8_patterns": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 3,
+   "archived": false
+  },
+  "isod89/sloop-fm1": {
+   "pushed_at": "2026-10-13",
+   "stargazers_count": 485,
+   "archived": false
+  },
+  "zvenson/dxsloop": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 22,
+   "archived": false
+  },
+  "Nicodesy06/FM1-MOVE": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 8,
+   "archived": false
+  },
+  "hericdk/fm1-quest": {
+   "pushed_at": "2026-10-12",
+   "stargazers_count": 9,
+   "archived": false
+  },
+  "juanjiant-bit/JIANT": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 112,
+   "archived": false
+  },
+  "dspaudio/orbit": {
+   "pushed_at": "2026-10-12",
+   "stargazers_count": 18,
+   "archived": false
+  },
+  "catacombius/NoteSorcery": {
+   "pushed_at": "2026-10-09",
+   "stargazers_count": 1,
+   "archived": false
+  },
+  "shaw-core/Sloop_ALG02": {
+   "pushed_at": "2026-10-07",
+   "stargazers_count": 3,
+   "archived": false
+  },
+  "y6zkcqnf5r-hue/fm1-fm80s": {
+   "pushed_at": "2026-10-10",
+   "stargazers_count": 2,
+   "archived": false
+  },
+  "majnikool/sloop-fm1": {
+   "pushed_at": "2026-10-09",
+   "stargazers_count": 1,
+   "archived": false
+  },
+  "renebohne/sloop-fm1": {
+   "pushed_at": "2026-10-09",
+   "stargazers_count": 1,
+   "archived": false
+  },
+  "hericdk/winampFM": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 5,
+   "archived": false
+  },
+  "charlesvestal/fm1-fomni": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 58,
+   "archived": false
+  },
+  "cartesive/fumi-1": {
+   "pushed_at": "2026-10-13",
+   "stargazers_count": 7,
+   "archived": false
+  },
+  "Erbubar23/bubba-machine": {
+   "pushed_at": "2026-10-12",
+   "stargazers_count": 5,
+   "archived": false
+  },
+  "zvenson/zp12": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 24,
+   "archived": false
+  },
+  "jadamsowers/fm1-fimba": {
+   "pushed_at": "2026-10-13",
+   "stargazers_count": 17,
+   "archived": false
+  },
+  "ip2k/lunar-modulator": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 59,
+   "archived": false
+  },
+  "charlesvestal/fm1-amb": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 37,
+   "archived": false
+  },
+  "charlesvestal/fm1-ctl": {
+   "pushed_at": "2026-10-12",
+   "stargazers_count": 7,
+   "archived": false
+  },
+  "Quixotic7/PurpleMonkeyFM1": {
+   "pushed_at": "2026-10-10",
+   "stargazers_count": 2,
+   "archived": false
+  },
+  "friendsmakenoise-prog/fm1-pocket-sampler": {
+   "error": 404
+  },
+  "NOVALENTI/fm1-polyseq": {
+   "pushed_at": "2026-09-04",
+   "stargazers_count": 2,
+   "archived": false
+  },
+  "patttf/fm-106": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 8,
+   "archived": false
+  },
+  "SikkenWorks/ETCH": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 5,
+   "archived": false
+  },
+  "JalopyMusic/fm1-milkboyg-ambii": {
+   "pushed_at": "2026-10-10",
+   "stargazers_count": 0,
+   "archived": false
+  },
+  "dspaudio/mc-1": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 1,
+   "archived": false
+  },
+  "zvenson/obervave": {
+   "pushed_at": "2026-10-14",
+   "stargazers_count": 5,
+   "archived": false
+  },
+  "cmlarsen/fm1-rocket-os": {
+   "pushed_at": "2026-10-12",
+   "stargazers_count": 1,
+   "archived": false
+  },
+  "w0ts/optimist": {
+   "pushed_at": "2026-10-13",
+   "stargazers_count": 15,
+   "archived": false
+  },
+  "zvenson/dinghy": {
+   "pushed_at": "2026-10-12",
+   "stargazers_count": 28,
+   "archived": false
+  },
+  "zvenson/fm1doom": {
+   "pushed_at": "2026-10-07",
+   "stargazers_count": 2,
+   "archived": false
+  },
+  "Keitark/fm1-nes": {
+   "pushed_at": "2026-10-09",
+   "stargazers_count": 16,
+   "archived": false
+  },
+  "charlesvestal/fm1-mocky": {
+   "pushed_at": "2026-10-10",
+   "stargazers_count": 2,
+   "archived": false
+  },
+  "Keitark/fm1-mdx": {
+   "pushed_at": "2026-10-08",
+   "stargazers_count": 0,
+   "archived": false
+  },
+  "ChanceTheMaker/gamedude-fm1-smk": {
+   "pushed_at": "2026-10-13",
+   "stargazers_count": 1,
+   "archived": false
+  },
+  "adamcharleswilsonmusic-code/Fart-Machine-One": {
+   "pushed_at": "2026-10-12",
+   "stargazers_count": 15,
+   "archived": false
+  }
+ }
+}
