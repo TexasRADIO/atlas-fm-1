@@ -2,7 +2,8 @@
 
 A map of every known firmware for the **M-VAVE FM-1** pocket FM synth: what each one tries to be, which engines and sounds it ships, how it talks MIDI, whether the project is still alive (from GitHub activity), and a six-step path for new owners.
 
-- `index.html` is the whole site, a single static file. Open it locally or host it anywhere (GitHub Pages works as is).
+- `index.html` is the whole site, a single static file, served at https://wero1414.github.io/atlas-fm-1/ via GitHub Pages.
+- `dist/artifact.html` is the same page without the document skeleton, for the claude.ai Artifact viewer.
 - `FIRMWARES.md` is the same data as Markdown tables.
 - `data/firmwares.json` is the source of truth, one object per firmware. Edit it to add or fix an entry.
 - `data/github-meta.json` holds last-push dates and stars, refreshed by `tools/fetch_github.py`.

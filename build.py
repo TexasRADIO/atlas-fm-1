@@ -47,7 +47,19 @@ data.sort(key=lambda d: d["name"].lower())
 tpl = (root/"template.html").read_text()
 html = tpl.replace("/*__DATA__*/[]", json.dumps(data, ensure_ascii=False)) \
           .replace("__BUILT__", today.isoformat()).replace("__COUNT__", str(len(data)))
-(root/"index.html").write_text(html)
+# artifact.html: body-only (the claude.ai Artifact tool adds the document skeleton)
+(root/"dist").mkdir(exist_ok=True)
+(root/"dist/artifact.html").write_text(html)
+# index.html: complete document for GitHub Pages / any static host
+doc = ('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
+       '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
+       '<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%230e0f14%22/%3E%3Ctext x=%2216%22 y=%2222%22 font-family=%22monospace%22 font-size=%2216%22 font-weight=%22700%22 text-anchor=%22middle%22 fill=%22%2329d3ff%22%3EFM%3C/text%3E%3C/svg%3E">\n'
+       '<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}img{max-width:100%}[hidden]{display:none!important}</style>\n'
+       + html.replace("</style>\n\n<div class=\"wrap\">", "</style>\n</head>\n<body>\n<div class=\"wrap\">", 1)
+       + '\n<script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.esm.min.mjs";'
+         'mermaid.initialize({startOnLoad:true,theme:matchMedia("(prefers-color-scheme: light)").matches?"neutral":"dark"});</script>\n'
+       '</body>\n</html>\n')
+(root/"index.html").write_text(doc)
 
 # Markdown mirror
 def c(s): return str(s or "").replace("|", "\\|").replace("\n", " ")
@@ -65,4 +77,4 @@ for pur in sorted({d["purpose"] for d in data}, key=lambda x: ORDER.index(x) if 
     out.append("")
 out += ["## Why each one exists", ""] + [f"- **{c(d['name'])}** ({c(d['author'])}): {c(d['why'])}" for d in data]
 (root/"FIRMWARES.md").write_text("\n".join(out) + "\n")
-print(f"built index.html ({len(html)//1024} KB), FIRMWARES.md; {sum(d['health']=='active' for d in data)} active, {sum(d['health']=='quiet' for d in data)} quiet, {sum(d['health']=='stale' for d in data)} stale, {sum(d['health']=='removed' for d in data)} removed")
+print(f"built index.html + dist/artifact.html ({len(html)//1024} KB), FIRMWARES.md; {sum(d['health']=='active' for d in data)} active, {sum(d['health']=='quiet' for d in data)} quiet, {sum(d['health']=='stale' for d in data)} stale, {sum(d['health']=='removed' for d in data)} removed")
