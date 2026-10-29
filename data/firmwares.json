@@ -1405,5 +1405,25 @@
   "sounds": "None",
   "sequencer": "None",
   "midi": "OUT: every key/button/knob as USB-MIDI notes"
+ },
+ {
+  "name": "BB1 (Big Beat)",
+  "author": "TexasRADIO",
+  "family": "Felucca",
+  "type": "Two-machine rhythm box + acid bass",
+  "status": "Web installer (1.5)",
+  "license": "GPL-3.0",
+  "clock": "in: USB/TRS settings; clock output OFF",
+  "midi_in": "USB, TRS",
+  "why": "Two independent drum layers and Dillo, an Open303-derived monophonic acid bass, through shared tape echo and spring. Song sections, era grooves and an ACID phrase bank, with a browser player and web installer.",
+  "features": "BB1 1.5: native 808 plus sampled LinnDrum, Linn LM-1, DrumTraks, DMX, Drumulator, Simmons and Rhythm King; 67 songs / 233 song sections, 21 eras / 168 sections, 138 Roland rhythms, 27 ACID banks / 205 phrases; nine bass sounds; bar-queued changes, scene save/load, browser player and one-click installer. Known limits, including the first tempo-edit jump, are documented in the guide.",
+  "repo": "https://github.com/TexasRADIO/bb1-firmware",
+  "install": "https://thebigbeat.app/fm1/install/",
+  "purpose": "Drum machine",
+  "emulates": "Two classic drum machines and a TB-303 in one box",
+  "engines": "3: synthesised 808, sampled drum player, 303-style bass (Dillo)",
+  "sounds": "8 drum machines, 9 Dillo bass presets",
+  "sequencer": "Two independent drum layers + bass; catalogue parts up to 64 steps",
+  "midi": "IN: USB + TRS; default KIT A ch10, KIT B ch11, Dillo ch1; input clock/follow/transport settings. OUT: none"
  }
 ]

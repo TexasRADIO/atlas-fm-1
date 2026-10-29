@@ -287,6 +287,14 @@
    "pushed_at": "2026-10-12",
    "stargazers_count": 15,
    "archived": false
+  },
+  "TexasRADIO/bb1-firmware": {
+   "archived": false,
+   "description": "BB1 for M-VAVE FM-1: two drum machines, a bass synth, tape echo and spring. GPL-3.0 firmware source.",
+   "license": "GPL-3.0",
+   "pushed_at": "2026-10-29",
+   "stargazers_count": 0,
+   "fork_of": null
   }
  }
 }
