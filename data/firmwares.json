@@ -1411,19 +1411,19 @@
   "author": "TexasRADIO",
   "family": "Felucca",
   "type": "Two-machine rhythm box + acid bass",
-  "status": "Web installer (1.5)",
+  "status": "Web installer (2.0)",
   "license": "GPL-3.0",
-  "clock": "in: USB/TRS settings; clock output OFF",
+  "clock": "Clock and MIDI settings documented in current guide; clock output default OFF",
   "midi_in": "USB, TRS",
   "why": "Two independent drum layers and Dillo, an Open303-derived monophonic acid bass, through shared tape echo and spring. Song sections, era grooves and an ACID phrase bank, with a browser player and web installer.",
-  "features": "BB1 1.5: native 808 plus sampled LinnDrum, Linn LM-1, DrumTraks, DMX, Drumulator, Simmons and Rhythm King; 67 songs / 233 song sections, 21 eras / 168 sections, 138 Roland rhythms, 27 ACID banks / 205 phrases; nine bass sounds; bar-queued changes, scene save/load, browser player and one-click installer. Known limits, including the first tempo-edit jump, are documented in the guide.",
+  "features": "BB1 2.0: native 808 plus seven sampled machines and 31 additional drum kits; named song arranger, ratchets, reversible Evolve, swung recording and BUILD user kits. 539 rhythm sections (233 song, 168 era and 138 Roland), 205 ACID phrases in 27 banks, nine Dillo bass sounds. Matched sound library 1.4 required. Known audio timing issue and open formal stack qualification disclosed in release notes.",
   "repo": "https://github.com/TexasRADIO/bb1-firmware",
   "install": "https://thebigbeat.app/fm1/install/",
   "purpose": "Drum machine",
   "emulates": "Two classic drum machines and a TB-303 in one box",
   "engines": "3: synthesised 808, sampled drum player, 303-style bass (Dillo)",
-  "sounds": "8 drum machines, 9 Dillo bass presets",
-  "sequencer": "Two independent drum layers + bass; catalogue parts up to 64 steps",
-  "midi": "IN: USB + TRS; default KIT A ch10, KIT B ch11, Dillo ch1; input clock/follow/transport settings. OUT: none"
+  "sounds": "8 base drum machines + 31 additional kits; 9 Dillo bass presets",
+  "sequencer": "Two independent drum layers + bass; named song arranger, ratchets and swung recording",
+  "midi": "Configurable USB/TRS MIDI input; see current guide for transport and clock settings."
  }
 ]

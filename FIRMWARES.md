@@ -1,6 +1,6 @@
 # FM-1 Firmware Atlas
 
-68 firmwares for the M-VAVE FM-1. Built 2026-10-29 from `data/firmwares.json` and GitHub activity in `data/github-meta.json`.
+68 firmwares for the M-VAVE FM-1. Built 2026-11-02 from `data/firmwares.json` and GitHub activity in `data/github-meta.json`.
 
 Health: active = pushed within 14 days, quiet = 15-60 days, stale = older. The scene started July 2026, so stale means abandoned-looking here.
 
@@ -51,7 +51,7 @@ Health: active = pushed within 14 days, quiet = 15-60 days, stale = older. The s
 
 | Firmware | Tries to be | Engines | Sounds | Sequencer | MIDI | Health | Stars | Install | License |
 |---|---|---|---|---|---|---|---|---|---|
-| [BB1 (Big Beat)](https://github.com/TexasRADIO/bb1-firmware) | Two classic drum machines and a TB-303 in one box | 3: synthesised 808, sampled drum player, 303-style bass (Dillo) | 8 drum machines, 9 Dillo bass presets | Two independent drum layers + bass; catalogue parts up to 64 steps | IN: USB + TRS; default KIT A ch10, KIT B ch11, Dillo ch1; input clock/follow/transport settings. OUT: none | active 2026-10-29 | 0 | Web installer (1.5) ([installer](https://thebigbeat.app/fm1/install/)) | GPL-3.0 |
+| [BB1 (Big Beat)](https://github.com/TexasRADIO/bb1-firmware) | Two classic drum machines and a TB-303 in one box | 3: synthesised 808, sampled drum player, 303-style bass (Dillo) | 8 base drum machines + 31 additional kits; 9 Dillo bass presets | Two independent drum layers + bass; named song arranger, ratchets and swung recording | Configurable USB/TRS MIDI input; see current guide for transport and clock settings. | active 2026-10-29 | 0 | Web installer (2.0) ([installer](https://thebigbeat.app/fm1/install/)) | GPL-3.0 |
 | [Bubba Machine](https://github.com/Erbubar23/bubba-machine) | TR drum machine + MPC-style sampler, written from scratch | TR drums (procedural), 8-slice sampler, wavetable bass, synth/mono/kit/MIDI tracks | All kits and wavetables synthesized in C, take library | 6 tracks, polymeter 1-64 steps, clock mult/div, 4 scenes, 16 punch FX | Internal clock only (so far); MIDI track type planned | quiet 2026-10-12 | 5 | Emulator only | GPL-3.0-or-later |
 | [Hortator](https://github.com/DeadActive/hortator) | Roland TR-808/909 + Mutable Instruments Plaits drums + Grids | 808/909 models, Plaits drum models, user samples, resonators | Analog-model kits, user samples | 8 drum tracks, Grids generative patterns, fills, LFOs | IN: USB, TRS, BLE. Clock in all three + Start/Stop. Drum channel in GLO | quiet 2026-10-12 | 15 | Prebuilt .fwsc ([installer](https://deadactive.github.io/hortator/webapp/installer/)) | GPL-3.0 |
 | [TRIBE](https://github.com/apiel/fm1-tribe) | Elektron-style clip groovebox with 909/808/303 | 25: KICK W/P, 909, 808, 303, zicBox scatter FX | Drum models + 303, scatter FX bank | 10 tracks, 16 clips each, 16-64 steps, 6 rates, 4 directions | USB in | quiet 2026-10-14 | 6 | Web installer ([installer](https://apiel.github.io/fm1-tribe/)) | GPL-3.0 |
