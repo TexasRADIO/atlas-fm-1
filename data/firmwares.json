@@ -1405,5 +1405,23 @@
   "sounds": "None",
   "sequencer": "None",
   "midi": "OUT: every key/button/knob as USB-MIDI notes"
+ },
+ {
+  "name": "Big Beat Studio BB-BOB",
+  "author": "Big Beat Studio / TexasRADIO",
+  "family": "BB1-derived",
+  "purpose": "Western swing groovebox",
+  "emulates": "Bob Wills-inspired Western swing bandstand",
+  "engines": "Acoustic band instruments and electronic rhythm section",
+  "sounds": "Steel guitar, bass, drums and performance calls",
+  "sequencer": "50 Classics, New Tune generator, live band cues",
+  "midi": "See player’s guide",
+  "clock": "See player’s guide",
+  "why": "BB-BOB puts a Western swing bandstand in your M-VAVE FM-1. Call one of 50 classics or hit New Tune and see what the band comes up with. Holler with Bob, give Leon the steel break, throw in a fill, and bring ’em back to the theme. Turn Then/Now and the rhythm section picks up acid bass and electronic drums. Leon keeps his chair.",
+  "features": "Mac installer requires released BB1 2.0 and sound library 1.4.",
+  "status": "Author Mac installer (50-song edition)",
+  "license": "GPL-3.0-only instrument code; content separately credited",
+  "repo": "https://thebigbeat.app/bb-bob/downloads/BB-BOB-50-Source.zip",
+  "install": "https://thebigbeat.app/bb-bob/about/"
  }
 ]
