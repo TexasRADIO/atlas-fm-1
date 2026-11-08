@@ -1405,5 +1405,23 @@
   "sounds": "None",
   "sequencer": "None",
   "midi": "OUT: every key/button/knob as USB-MIDI notes"
+ },
+ {
+  "name": "Compás 1.0",
+  "author": "Big Beat Studio / TexasRADIO",
+  "family": "Felucca",
+  "purpose": "Groovebox",
+  "emulates": "Latin rhythm section",
+  "engines": "Drums, ensemble or acid bass, and hand percussion",
+  "sounds": "TR-727 percussion bank with fifteen sounds",
+  "sequencer": "29 groove studies, 28 written-song arrangements, six cueable sections and a 727 step editor",
+  "midi": "USB for author installer",
+  "clock": "Phrase and bar cues",
+  "why": "Call sections live over cumbia, salsa, merengue and bolero.",
+  "features": "English and Spanish screens, live 727 recording, Rebajada and a sixteen-song set list",
+  "status": "Web installer",
+  "license": "GPL-3.0-only",
+  "repo": "https://github.com/TexasRADIO/compas-firmware",
+  "install": "https://thebigbeat.app/compas/install/"
  }
 ]
