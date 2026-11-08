@@ -135,7 +135,7 @@ Health: active = pushed within 14 days, quiet = 15-60 days, stale = older. The s
 
 | Firmware | Tries to be | Engines | Sounds | Sequencer | MIDI | Health | Stars | Install | License |
 |---|---|---|---|---|---|---|---|---|---|
-| [Big Beat Studio BB-BOB](https://thebigbeat.app/bb-bob/downloads/BB-BOB-50-Source-r2.zip) | Bob Wills-inspired Western swing bandstand | Acoustic band instruments and electronic rhythm section | Steel guitar, bass, drums and performance calls | 50 Classics, New Tune generator, live band cues | See player’s guide | n/a  |  | Author browser installer (50-song edition) ([installer](https://thebigbeat.app/bb-bob/install/)) | GPL-3.0-only instrument code; content separately credited |
+| [Big Beat Studio BB-BOB](https://thebigbeat.app/bb-bob/downloads/BB-BOB-50-Source-r2.zip) | Bob Wills-inspired Western swing bandstand | Acoustic band instruments and electronic rhythm section | Steel guitar, bass, drums and performance calls | 50 Classics, New Tune generator, live band cues | See player’s guide | n/a  |  | Author website (50-song edition) ([installer](https://thebigbeat.app/bb-bob/about/)) | GPL-3.0-only instrument code; content separately credited |
 
 ## Why each one exists
 

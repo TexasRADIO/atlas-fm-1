@@ -1418,10 +1418,10 @@
   "midi": "See player’s guide",
   "clock": "See player’s guide",
   "why": "BB-BOB puts Bob Wills’s Western swing bandstand in your M-VAVE FM-1. Pick one of 50 tunes or hit New Tune to generate an original. Cue Leon’s steel solo, send the band to the bridge, or holler with samples of Bob’s own voice. Turn Then/Now to bring in acid bass and drum-machine beats.",
-  "features": "Desktop Chrome or Edge on Windows, macOS or Linux. Installer starts from BB1 2.0 with sound library 1.4.",
-  "status": "Author browser installer (50-song edition)",
+  "features": "Live steel solo, bridge and vocal calls. Then/Now changes the rhythm section.",
+  "status": "Author website (50-song edition)",
   "license": "GPL-3.0-only instrument code; content separately credited",
   "repo": "https://thebigbeat.app/bb-bob/downloads/BB-BOB-50-Source-r2.zip",
-  "install": "https://thebigbeat.app/bb-bob/install/"
+  "install": "https://thebigbeat.app/bb-bob/about/"
  }
 ]
