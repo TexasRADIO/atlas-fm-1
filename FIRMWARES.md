@@ -1,6 +1,6 @@
 # FM-1 Firmware Atlas
 
-68 firmwares for the M-VAVE FM-1. Built 2026-11-05 from `data/firmwares.json` and GitHub activity in `data/github-meta.json`.
+68 firmwares for the M-VAVE FM-1. Built 2026-11-08 from `data/firmwares.json` and GitHub activity in `data/github-meta.json`.
 
 Health: active = pushed within 14 days, quiet = 15-60 days, stale = older. The scene started July 2026, so stale means abandoned-looking here.
 
@@ -131,11 +131,11 @@ Health: active = pushed within 14 days, quiet = 15-60 days, stale = older. The s
 | [fm1-mdx](https://github.com/Keitark/fm1-mdx) | Sharp X68000 YM2151 player | YM2151 FM emulation | MDX/PDX files | Playback |  | quiet 2026-10-08 | 0 | Research | GPL-3.0 |
 | [GameDude](https://github.com/ChanceTheMaker/gamedude-fm1-smk) | Nintendo Game Boy |  |  |  |  | quiet 2026-10-13 | 1 | Web installer ([installer](https://chancethemaker.github.io/gamedude-fm1-smk/)) | GPL-3.0 |
 
-## Western swing groovebox (1)
+## Western swing bandstand (1)
 
 | Firmware | Tries to be | Engines | Sounds | Sequencer | MIDI | Health | Stars | Install | License |
 |---|---|---|---|---|---|---|---|---|---|
-| [Big Beat Studio BB-BOB](https://thebigbeat.app/bb-bob/downloads/BB-BOB-50-Source.zip) | Bob Wills-inspired Western swing bandstand | Acoustic band instruments and electronic rhythm section | Steel guitar, bass, drums and performance calls | 50 Classics, New Tune generator, live band cues | See player’s guide | n/a  |  | Author Mac installer (50-song edition) ([installer](https://thebigbeat.app/bb-bob/about/)) | GPL-3.0-only instrument code; content separately credited |
+| [Big Beat Studio BB-BOB](https://thebigbeat.app/bb-bob/downloads/BB-BOB-50-Source-r2.zip) | Bob Wills-inspired Western swing bandstand | Acoustic band instruments and electronic rhythm section | Steel guitar, bass, drums and performance calls | 50 Classics, New Tune generator, live band cues | See player’s guide | n/a  |  | Author browser installer (50-song edition) ([installer](https://thebigbeat.app/bb-bob/install/)) | GPL-3.0-only instrument code; content separately credited |
 
 ## Why each one exists
 
@@ -143,7 +143,7 @@ Health: active = pushed within 14 days, quiet = 15-60 days, stale = older. The s
 - **AMBII** (MilkBoyG / JalopyMusic): Alternative performance and recording interface on Melodee's engine core, with automation graphs and undo. Browser prototype, no hardware image yet.
 - **April OS** (beashoko): Sampling first: 32 sample slots, slice and loop editor, record straight from a phone or laptop mic. Exists because stock has no sampling at all.
 - **Baud Girl FM-1+VA** (Madeline (Baud Girl)): Keeps the stock FM engine and your presets but fixes the ergonomics, adds Virtual Analog (7-osc Super mode, ZDF filters), an 8-bit engine and a 64-step sequencer. The only free firmware documented with MIDI Clock Out.
-- **Big Beat Studio BB-BOB** (Big Beat Studio / TexasRADIO): BB-BOB puts a Western swing bandstand in your M-VAVE FM-1. Call one of 50 classics or hit New Tune and see what the band comes up with. Holler with Bob, give Leon the steel break, throw in a fill, and bring ’em back to the theme. Turn Then/Now and the rhythm section picks up acid bass and electronic drums. Leon keeps his chair.
+- **Big Beat Studio BB-BOB** (Big Beat Studio / TexasRADIO): BB-BOB puts Bob Wills’s Western swing bandstand in your M-VAVE FM-1. Pick one of 50 tunes or hit New Tune to generate an original. Cue Leon’s steel solo, send the band to the bridge, or holler with samples of Bob’s own voice. Turn Then/Now to bring in acid bass and drum-machine beats.
 - **Bubba Machine** (Erbubar23): Written from scratch in C99 with zero third-party audio code, every kit procedurally synthesized. TR drum machine, 8-slice sampler, wavetable bass, polymeter per track. Hardware flasher still on the roadmap.
 - **ChoralRoot FM-1** (Quixotic7): Ports the Monome-grid ChoralRoot chord engine: one hand picks roots, the other shapes voicings. Exists for chord-based live performance rather than step sequencing.
 - **CTL-1** (Charles Vestal): Turns the FM-1 into a MIDI master controller: keys send notes, knobs send CC in four banks, TRS passed through, with GM sounds for monitoring. Exists so the FM-1 can drive your other synths.
